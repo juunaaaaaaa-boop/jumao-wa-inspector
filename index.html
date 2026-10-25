@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f6">
+  <meta name="description" content="Dashboard audit privasi WhatsApp">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>JUUMAO WA Inspector</title>
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="dot"></span> JUUMAO</div>
+    <span class="tag">WA INSPECTOR / 01</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">ANDROID PRIVACY TOOL</p>
+      <h1>your privacy,<br><span>your control.</span></h1>
+      <p class="muted">Dashboard pemeriksaan privasi WhatsApp dalam satu tempat.</p>
+      <button class="primary" id="openWA">Buka WhatsApp ↗</button>
+    </section>
+
+    <section class="summary">
+      <div>
+        <p class="eyebrow">AUDIT PROGRESS</p>
+        <strong id="progress">0%</strong>
+      </div>
+      <div class="track"><div id="bar"></div></div>
+      <p class="muted small" id="progressText">0 dari 5 pemeriksaan selesai</p>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Privacy audit</h2>
+        <span class="tag">05 CHECKS</span>
+      </div>
+      <div id="checks" class="checks"></div>
+    </section>
+
+    <section class="note">
+      <span>i</span>
+      <p>Hasil berasal dari checklist yang kamu isi sendiri. Aplikasi ini tidak membaca pesan, melihat status tersembunyi, atau memindai server WhatsApp.</p>
+    </section>
+
+    <section class="actions">
+      <button class="secondary" id="openSettings">Pengaturan Android ↗</button>
+      <button class="secondary" id="reset">Reset checklist</button>
+    </section>
+  </main>
+
+  <footer>JUUMAO © 2026 · PRIVATE BY DESIGN</footer>
+  <script src="app.js"></script>
+</body>
+                         </html>
